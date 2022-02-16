@@ -11,7 +11,7 @@ body {
 }
 #title {
   text-align: center;
-  padding-top: 40px;S
+  padding-top: 40px;
   font-weight:italic;
   font-size: 48px;
 }
@@ -42,7 +42,7 @@ body {
   max-width: 90%;
   display: block;
   border-radius: 20px;
-  margin: auto;s
+  margin: auto;
   font-size: 18px;
 }
 #tribute-info {
@@ -91,4 +91,26 @@ body {
 footer{
   text-align: center;
   margin: 30px;
+}
+@media only screen and (max-width: 1200px) {
+  
+  #timeline-ul{
+    width: 80%;
+  
+  }
+  #title{
+    font-size: 28px;
+  }
+  #subheader{
+    font-size: 16px;
+  }
+  #timeline{
+    font-size: 1.0pc;
+    margin:auto;
+  }
+  .timeline-li{
+    padding:8px;
+    margin: auto;
+  }
+ 
 }
