@@ -5,6 +5,8 @@ body {
 #main {
   width: 90%;
   height: 100%;
+  background:-webkit-gradient(linear,left top, left bottom,from(rgb(221, 216, 216)),color-stop(rgb(114, 112, 112)),to(rgb(85, 85, 85)));
+  background:-o-linear-gradient(rgb(221, 216, 216),rgb(114, 112, 112),rgb(85, 85, 85));
   background:linear-gradient(rgb(221, 216, 216),rgb(114, 112, 112),rgb(85, 85, 85));
   margin: auto;
   border-radius: 20px;
@@ -38,6 +40,8 @@ body {
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 #timeline {
+  background:-webkit-gradient(linear,left top, left bottom,from(rgb(168, 166, 166)),color-stop(rgb(129, 129, 129)),to(rgb(85, 85, 85)));
+  background:-o-linear-gradient(rgb(168, 166, 166),rgb(129, 129, 129),rgb(85, 85, 85));
   background:linear-gradient(rgb(168, 166, 166),rgb(129, 129, 129),rgb(85, 85, 85));
   max-width: 90%;
   display: block;
